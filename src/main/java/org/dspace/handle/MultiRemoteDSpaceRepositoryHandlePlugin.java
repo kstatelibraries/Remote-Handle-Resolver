@@ -33,8 +33,8 @@ import net.handle.hdllib.ScanCallback;
 import net.handle.hdllib.Util;
 import net.cnri.util.StreamTable;
 
-import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.Logger;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonIOException;
@@ -70,7 +70,7 @@ public class MultiRemoteDSpaceRepositoryHandlePlugin implements HandleStorage
     private static final String PROPERTY_KEY = "dspace.handle.endpoint";
 
     /** log4j category */
-    private static final Logger log = Logger
+    private static final Logger log = org.apache.logging.log4j.LogManager
             .getLogger(MultiRemoteDSpaceRepositoryHandlePlugin.class);
 
     // maps prefixes to URLs from DSpace instances
