@@ -33,7 +33,7 @@ import net.handle.hdllib.ScanCallback;
 import net.handle.hdllib.Util;
 import net.cnri.util.StreamTable;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import com.google.gson.JsonElement;
